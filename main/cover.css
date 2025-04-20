@@ -7,7 +7,7 @@
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
-  color: #323232;
+  color: #4f4f4f;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -17,7 +17,7 @@
  */
 
 body {
-  background-image: url('../IMG/portada.jpg');
+  background-image: url('../IMG/pexels-mstudio-360817-2324562.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +27,14 @@ body {
   max-width: 42em;
 }
 
+.custom-heading {
+  color: rgb(255, 255, 255);
+  text-shadow: 
+  -1px -1px 0 black,
+   1px -1px 0 black,
+  -1px  1px 0 black,
+   1px  1px 0 black;
+}
 
 /*
  * Header

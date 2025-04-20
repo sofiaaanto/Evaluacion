@@ -46,3 +46,11 @@
     flex: 1;
   }
 }
+
+.col-md-6 {
+  background-color:rgb(255, 229, 146);
+}
+
+.position-relative {
+  background-color:rgb(212, 166, 27) ;
+}

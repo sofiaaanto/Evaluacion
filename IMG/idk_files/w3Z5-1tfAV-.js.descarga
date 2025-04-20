@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisViewerSettingsContextProviderStub.react",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;h||d("react");function a(a){a=a.children;return a}g["default"]=a}),98);
+__d("useMsysIgThreadId",["ReQL","ReQLSuspense","react-compiler-runtime","useReStore"],(function(a,b,c,d,e,f,g){"use strict";var h;function a(a){var b=d("react-compiler-runtime").c(6),e=(h||(h=c("useReStore")))(),g;b[0]!==e.tables.ig_thread_info||b[1]!==a?(g=function(){return d("ReQL").fromTableAscending(e.tables.ig_thread_info).getKeyRange(a).map(i)},b[0]=e.tables.ig_thread_info,b[1]=a,b[2]=g):g=b[2];var j;b[3]!==e||b[4]!==a?(j=[e,a],b[3]=e,b[4]=a,b[5]=j):j=b[5];return d("ReQLSuspense").useFirst(g,j,f.id+":21")}function i(a){return a.igThreadId}g["default"]=a}),98);
