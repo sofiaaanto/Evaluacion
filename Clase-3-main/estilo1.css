@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.961);
+}
+
+header{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background: linear-gradient(rgba(61, 121, 225, 0.964),rgba(51, 73, 180, 0.94));
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid #051f65;
+    box-shadow: 0px 0px 10px ;
+}
+
+header h1{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+header h2{
+    font-size: 12.2;
+    opacity: 0.7;
+
+}
+
+.container{
+    background: linear-gradient(rgba(57, 73, 173, 0.948),rgba(87, 150, 177, 0.937)) ;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #001868db;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgb(18, 69, 158) ;
+
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.cabecera{
+    position: relative;
+
+}
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0, 2, 4, 0.5)
+
+}
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #030d15;
+
+}
+
+section{
+    background-color: rgb(146, 197, 255) ;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.961);
+}
+section hr{
+    border: 0;
+    height: 2px;
+    background: #000102;
+    margin: 10px;
+}
+
+ul li{
+    padding: 5px 0 ;
+
+}
+
+address p{
+    margin: 5px 0;
+    color: rgb(70, 0, 135);
+    text-decoration: none;
+
+}
+i{
+    color: rgb(82, 13, 201);
+    margin-right: 8px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
